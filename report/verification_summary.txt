@@ -1,0 +1,40 @@
+ASCON Hardware/Software Verification Summary
+
+Hardware Verification:
+The ASCON RTL hardware design was simulated using Verilator and Cocotb.
+The final simulation result was:
+TESTS=10 PASS=10 FAIL=0 SKIP=0
+
+The hardware testbench verified:
+- Encryption
+- Decryption
+- Decryption failure case
+- Hash
+- XOF
+- CXOF
+- Backpressure cases
+
+Software Verification:
+The Python software implementation generated three custom test vectors.
+For each vector, encryption, decryption, and hashing were tested.
+The decrypted plaintext matched the original plaintext for all vectors.
+
+Software Results:
+V1: DECRYPTION CHECK = PASS
+V2: DECRYPTION CHECK = PASS
+V3: DECRYPTION CHECK = PASS
+
+Area Result:
+Top module: ascon_core
+Number of wires: 14446
+Number of wire bits: 18641
+Number of ports: 51
+Number of cells: 15649
+DFFSR cells: 474
+NAND cells: 7262
+NOR cells: 6563
+NOT cells: 1350
+Top module chip area: 67882.000000
+
+Power Note:
+Power consumption was not directly measured because this project used open-source simulation and synthesis tools. Accurate power estimation would require mapping the design to a specific FPGA using Vivado or Quartus and running a vendor power analyzer.

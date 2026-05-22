@@ -1,0 +1,24 @@
+User Manual for ASCON Project
+
+1. Activate the Python environment:
+source ~/ascon-venv313/bin/activate
+
+2. Run the hardware simulation:
+cd ~/ASCON_Project/hardware/ascon-verilog
+make clean
+make sim
+
+3. Run hardware synthesis:
+cd ~/ASCON_Project/hardware/ascon-verilog
+make clean
+make syn
+
+4. Run the software implementation:
+cd ~/ASCON_Project/software
+python generate_vectors.py
+
+5. Save the generated test vectors:
+python generate_vectors.py > ~/ASCON_Project/test_vectors/test_vectors.txt
+
+6. View the saved test vectors:
+cat ~/ASCON_Project/test_vectors/test_vectors.txt

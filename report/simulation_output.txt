@@ -1,0 +1,270 @@
+rm -f results.xml
+"make" -f Makefile results.xml
+make[1]: Entering directory '/home/yousef/ASCON_Project/hardware/ascon-verilog'
+/home/yousef/ascon-venv313/lib/python3.13/site-packages/cocotb_tools/makefiles/simulators/Makefile.verilator:69: Using MODULE is deprecated, please use COCOTB_TEST_MODULES instead.
+rm -f results.xml
+COCOTB_TEST_MODULES=test COCOTB_TESTCASE= COCOTB_TEST_FILTER= COCOTB_TOPLEVEL=ascon_core TOPLEVEL_LANG=verilog \
+         sim_build/Vtop  --threads 8 --relative-includes -Wno-UNOPTFLAT -DV1   
+     -.--ns INFO     gpi                                ..mbed/gpi_embed.cpp:93   in _embed_init_python              Using Python 3.13.0rc1 interpreter at /home/yousef/ascon-venv313/bin/python3
+     -.--ns INFO     gpi                                ../gpi/GpiCommon.cpp:79   in gpi_print_registered_impl       VPI registered
+     0.00ns INFO     cocotb                             Running on Verilator version 5.040 2025-08-30
+     0.00ns INFO     cocotb                             Seeding Python random module with 1779400255
+     0.00ns INFO     cocotb                             Initialized cocotb v2.0.1 from /home/yousef/ascon-venv313/lib/python3.13/site-packages/cocotb
+     0.00ns INFO     cocotb                             Running tests
+     0.00ns INFO     cocotb.regression                  running test.test_enc (1/10)
+     0.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:0 msg:0
+    42.50ns INFO     cocotb.ascon_core                  cycles    40
+    42.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+    42.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:1 msg:0
+    93.50ns INFO     cocotb.ascon_core                  cycles    49
+    93.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+    93.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:2 msg:0
+   144.50ns INFO     cocotb.ascon_core                  cycles    49
+   144.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+   144.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:3 msg:0
+   195.50ns INFO     cocotb.ascon_core                  cycles    49
+   195.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+   195.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:4 msg:0
+   247.50ns INFO     cocotb.ascon_core                  cycles    50
+   247.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+   247.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:5 msg:0
+   299.50ns INFO     cocotb.ascon_core                  cycles    50
+   299.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+   299.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:6 msg:0
+   351.50ns INFO     cocotb.ascon_core                  cycles    50
+   351.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+   351.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:7 msg:0
+   403.50ns INFO     cocotb.ascon_core                  cycles    50
+   403.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+   403.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:8 msg:0
+   456.50ns INFO     cocotb.ascon_core                  cycles    51
+   456.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+   456.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:9 msg:0
+   509.50ns INFO     cocotb.ascon_core                  cycles    51
+   509.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+   509.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:0 msg:1
+   552.50ns INFO     cocotb.ascon_core                  cycles    41
+   552.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+   552.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:1 msg:1
+   604.50ns INFO     cocotb.ascon_core                  cycles    50
+   604.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+   604.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:2 msg:1
+   656.50ns INFO     cocotb.ascon_core                  cycles    50
+   656.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+   656.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:3 msg:1
+   708.50ns INFO     cocotb.ascon_core                  cycles    50
+   708.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+   708.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:4 msg:1
+   761.50ns INFO     cocotb.ascon_core                  cycles    51
+   761.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+   761.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:5 msg:1
+   814.50ns INFO     cocotb.ascon_core                  cycles    51
+   814.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+   814.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:6 msg:1
+   867.50ns INFO     cocotb.ascon_core                  cycles    51
+   867.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+   867.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:7 msg:1
+   920.50ns INFO     cocotb.ascon_core                  cycles    51
+   920.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+   920.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:8 msg:1
+   974.50ns INFO     cocotb.ascon_core                  cycles    52
+   974.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+   974.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:9 msg:1
+  1028.50ns INFO     cocotb.ascon_core                  cycles    52
+  1028.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  1028.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:0 msg:2
+  1071.50ns INFO     cocotb.ascon_core                  cycles    41
+  1071.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  1071.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:1 msg:2
+  1123.50ns INFO     cocotb.ascon_core                  cycles    50
+  1123.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  1123.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:2 msg:2
+  1175.50ns INFO     cocotb.ascon_core                  cycles    50
+  1175.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  1175.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:3 msg:2
+  1227.50ns INFO     cocotb.ascon_core                  cycles    50
+  1227.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  1227.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:4 msg:2
+  1280.50ns INFO     cocotb.ascon_core                  cycles    51
+  1280.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  1280.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:5 msg:2
+  1333.50ns INFO     cocotb.ascon_core                  cycles    51
+  1333.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  1333.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:6 msg:2
+  1386.50ns INFO     cocotb.ascon_core                  cycles    51
+  1386.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  1386.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:7 msg:2
+  1439.50ns INFO     cocotb.ascon_core                  cycles    51
+  1439.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  1439.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:8 msg:2
+  1493.50ns INFO     cocotb.ascon_core                  cycles    52
+  1493.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  1493.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:9 msg:2
+  1547.50ns INFO     cocotb.ascon_core                  cycles    52
+  1547.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  1547.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:0 msg:3
+  1590.50ns INFO     cocotb.ascon_core                  cycles    41
+  1590.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  1590.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:1 msg:3
+  1642.50ns INFO     cocotb.ascon_core                  cycles    50
+  1642.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  1642.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:2 msg:3
+  1694.50ns INFO     cocotb.ascon_core                  cycles    50
+  1694.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  1694.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:3 msg:3
+  1746.50ns INFO     cocotb.ascon_core                  cycles    50
+  1746.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  1746.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:4 msg:3
+  1799.50ns INFO     cocotb.ascon_core                  cycles    51
+  1799.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  1799.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:5 msg:3
+  1852.50ns INFO     cocotb.ascon_core                  cycles    51
+  1852.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  1852.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:6 msg:3
+  1905.50ns INFO     cocotb.ascon_core                  cycles    51
+  1905.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  1905.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:7 msg:3
+  1958.50ns INFO     cocotb.ascon_core                  cycles    51
+  1958.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  1958.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:8 msg:3
+  2012.50ns INFO     cocotb.ascon_core                  cycles    52
+  2012.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  2012.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:9 msg:3
+  2066.50ns INFO     cocotb.ascon_core                  cycles    52
+  2066.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  2066.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:0 msg:4
+  2110.50ns INFO     cocotb.ascon_core                  cycles    42
+  2110.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  2110.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:1 msg:4
+  2163.50ns INFO     cocotb.ascon_core                  cycles    51
+  2163.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  2163.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:2 msg:4
+  2216.50ns INFO     cocotb.ascon_core                  cycles    51
+  2216.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  2216.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:3 msg:4
+  2269.50ns INFO     cocotb.ascon_core                  cycles    51
+  2269.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  2269.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:4 msg:4
+  2323.50ns INFO     cocotb.ascon_core                  cycles    52
+  2323.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  2323.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:5 msg:4
+  2377.50ns INFO     cocotb.ascon_core                  cycles    52
+  2377.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  2377.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:6 msg:4
+  2431.50ns INFO     cocotb.ascon_core                  cycles    52
+  2431.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  2431.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:7 msg:4
+  2485.50ns INFO     cocotb.ascon_core                  cycles    52
+  2485.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  2485.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:8 msg:4
+  2540.50ns INFO     cocotb.ascon_core                  cycles    53
+  2540.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  2540.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:9 msg:4
+  2595.50ns INFO     cocotb.ascon_core                  cycles    53
+  2595.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  2595.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:0 msg:5
+  2639.50ns INFO     cocotb.ascon_core                  cycles    42
+  2639.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  2639.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:1 msg:5
+  2692.50ns INFO     cocotb.ascon_core                  cycles    51
+  2692.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  2692.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:2 msg:5
+  2745.50ns INFO     cocotb.ascon_core                  cycles    51
+  2745.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  2745.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:3 msg:5
+  2798.50ns INFO     cocotb.ascon_core                  cycles    51
+  2798.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  2798.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:4 msg:5
+  2852.50ns INFO     cocotb.ascon_core                  cycles    52
+  2852.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  2852.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:5 msg:5
+  2906.50ns INFO     cocotb.ascon_core                  cycles    52
+  2906.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  2906.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:6 msg:5
+  2960.50ns INFO     cocotb.ascon_core                  cycles    52
+  2960.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  2960.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:7 msg:5
+  3014.50ns INFO     cocotb.ascon_core                  cycles    52
+  3014.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  3014.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:8 msg:5
+  3069.50ns INFO     cocotb.ascon_core                  cycles    53
+  3069.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  3069.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:9 msg:5
+  3124.50ns INFO     cocotb.ascon_core                  cycles    53
+  3124.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  3124.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:0 msg:6
+  3168.50ns INFO     cocotb.ascon_core                  cycles    42
+  3168.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  3168.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:1 msg:6
+  3221.50ns INFO     cocotb.ascon_core                  cycles    51
+  3221.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  3221.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:2 msg:6
+  3274.50ns INFO     cocotb.ascon_core                  cycles    51
+  3274.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  3274.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:3 msg:6
+  3327.50ns INFO     cocotb.ascon_core                  cycles    51
+  3327.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  3327.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:4 msg:6
+  3381.50ns INFO     cocotb.ascon_core                  cycles    52
+  3381.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  3381.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:5 msg:6
+  3435.50ns INFO     cocotb.ascon_core                  cycles    52
+  3435.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  3435.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:6 msg:6
+  3489.50ns INFO     cocotb.ascon_core                  cycles    52
+  3489.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  3489.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:7 msg:6
+  3543.50ns INFO     cocotb.ascon_core                  cycles    52
+  3543.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  3543.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:8 msg:6
+  3598.50ns INFO     cocotb.ascon_core                  cycles    53
+  3598.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  3598.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:9 msg:6
+  3653.50ns INFO     cocotb.ascon_core                  cycles    53
+  3653.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  3653.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:0 msg:7
+  3697.50ns INFO     cocotb.ascon_core                  cycles    42
+  3697.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  3697.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:1 msg:7
+  3750.50ns INFO     cocotb.ascon_core                  cycles    51
+  3750.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  3750.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:2 msg:7
+  3803.50ns INFO     cocotb.ascon_core                  cycles    51
+  3803.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  3803.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:3 msg:7
+  3856.50ns INFO     cocotb.ascon_core                  cycles    51
+  3856.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  3856.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:4 msg:7
+  3910.50ns INFO     cocotb.ascon_core                  cycles    52
+  3910.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  3910.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:5 msg:7
+  3964.50ns INFO     cocotb.ascon_core                  cycles    52
+  3964.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  3964.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:6 msg:7
+  4018.50ns INFO     cocotb.ascon_core                  cycles    52
+  4018.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  4018.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:7 msg:7
+  4072.50ns INFO     cocotb.ascon_core                  cycles    52
+  4072.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  4072.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:8 msg:7
+  4127.50ns INFO     cocotb.ascon_core                  cycles    53
+  4127.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  4127.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:9 msg:7
+  4182.50ns INFO     cocotb.ascon_core                  cycles    53
+  4182.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  4182.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:0 msg:8
+  4227.50ns INFO     cocotb.ascon_core                  cycles    43
+  4227.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  4227.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:1 msg:8
+  4281.50ns INFO     cocotb.ascon_core                  cycles    52
+  4281.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  4281.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:2 msg:8
+  4335.50ns INFO     cocotb.ascon_core                  cycles    52
+  4335.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  4335.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:3 msg:8
+  4389.50ns INFO     cocotb.ascon_core                  cycles    52
+  4389.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  4389.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:4 msg:8
+  4444.50ns INFO     cocotb.ascon_core                  cycles    53
+  4444.50ns INFO     cocotb.ascon_core                  ------------------------------------------
+  4444.50ns INFO     cocotb.ascon_core                  test      M_AEAD128_ENC ad:5 msg:8
